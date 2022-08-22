@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using SpatialConnect.Wwise.Core;
+using Microsoft.MixedReality.Toolkit.Input;
 
 namespace SpatialConnect.Wwise
 {

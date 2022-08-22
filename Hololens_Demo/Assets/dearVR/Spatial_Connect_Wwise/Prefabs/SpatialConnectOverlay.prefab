@@ -4033,6 +4033,8 @@ GameObject:
   - component: {fileID: 4110789227080443245}
   - component: {fileID: 7136444710019963150}
   - component: {fileID: 6992514796233256169}
+  - component: {fileID: 7635338898621420177}
+  - component: {fileID: 4320149463473218378}
   m_Layer: 0
   m_Name: GlobalUI
   m_TagString: Untagged
@@ -4122,6 +4124,32 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7635338898621420177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5206892040040851936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4e3b9019304b5aaec5664de0778d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4320149463473218378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5206892040040851936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcaf896491074042b7ed7684454a412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
 --- !u!1 &5297185656020419594
 GameObject:
   m_ObjectHideFlags: 0
@@ -6443,6 +6471,8 @@ GameObject:
   - component: {fileID: 8259958003586389329}
   - component: {fileID: 4883112901868819460}
   - component: {fileID: 2450299536071580933}
+  - component: {fileID: 6550537750772410058}
+  - component: {fileID: 6873997558038320743}
   m_Layer: 0
   m_Name: Mixer
   m_TagString: Untagged
@@ -6586,6 +6616,32 @@ MonoBehaviour:
   mixingSessionHandlerBehaviour: {fileID: 2945616539363223158}
   selectionDropdownBehaviour: {fileID: 8007052524286714079}
   errorTextBehaviour: {fileID: 4658924377757868460}
+--- !u!114 &6550537750772410058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818101314514488820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4e3b9019304b5aaec5664de0778d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6873997558038320743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818101314514488820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcaf896491074042b7ed7684454a412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
 --- !u!1 &8891205752854165971
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,12 @@ public class ToggleSpatConBehaviour : MonoBehaviour
 
     private bool overlayActive_;
     private bool overlayVisible_;
+    
+    private void Start()
+    {
+        centerEyeAnchor = GameObject.Find("UIRaycastCamera").transform;
+
+    }
 
     private void Update()
     {
@@ -56,6 +62,35 @@ public class ToggleSpatConBehaviour : MonoBehaviour
 
         void Enable()
         {
+
+            if (GameObject.Find("Left_RiggedHandLeft(Clone)"))
+            {
+                leftControllerAnchor = GameObject.Find("Left_RiggedHandLeft(Clone)").transform;
+            }
+            else
+            {
+                Debug.Log("Couldn't find Hand using something else as anchor");
+                Vector3 pos = centerEyeAnchor.position;
+                pos = pos + new Vector3(-1f, -1.5f, 0f);
+                GameObject defaultLeftAnchor = new GameObject();
+                defaultLeftAnchor.transform.position = pos;
+                leftControllerAnchor = defaultLeftAnchor.transform;
+            }
+
+            if (GameObject.Find("Right_RiggedHandLeft(Clone)"))
+            {
+                leftControllerAnchor = GameObject.Find("Right_RiggedHandLeft(Clone)").transform;
+            }
+            else
+            {
+                Debug.Log("Couldn't find Hand using something else as anchor");
+                Vector3 pos = centerEyeAnchor.position;
+                pos = pos + new Vector3(1f, -1.5f, 0f);
+                GameObject defaultLeftAnchor = new GameObject();
+                defaultLeftAnchor.transform.position = pos;
+                leftControllerAnchor = defaultLeftAnchor.transform;
+            }
+
             spatialConnectHandler.EnableOverlay(centerEyeAnchor, leftControllerAnchor, rightControllerAnchor);
             overlayActive_ = true;
             overlayVisible_ = false;
