@@ -49,8 +49,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c790fa4a57d9e2449a044f960c730a17
     GuidInternal: 
-    m_lastTime: -8585404231712194581
-    List: []
+    m_lastTime: -8585404226662069718
+    List:
+    - name: Main
+      guid: 3cbf9dc4e0b5c94e88e3e4feed4f7bea
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -59,8 +68,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 188d8cc370839f4098a5d1c49c08daf4
     GuidInternal: 
-    m_lastTime: -8585404231712412462
-    List: []
+    m_lastTime: -8585404226662134115
+    List:
+    - name: Play_411444__vanceparley__arcade_sound
+      guid: 9853e3a20277f9428f9e94fab70ccac9
+      id: 568279670
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_411444__vanceparley__arcade_sound
+        ObjectType: 3
+      Path: Default Work Unit\Play_411444__vanceparley__arcade_sound
+      maxAttenuation: 100000000
+      maxDuration: 85647096
+      minDuration: 85647096
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -101,6 +122,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585404231711971095
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Hololens_Demo_WwiseProject
+  - /Hololens_Demo_WwiseProject/SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	568279670	Play_411444__vanceparley__arcade_sound			\Default Work Unit\Play_411444__vanceparley__arcade_sound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	198750520	411444__vanceparley__arcade-sound	D:\Daten\Dear Reality\unity testing\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\411444__vanceparley__arcade-sound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\411444__vanceparley__arcade-sound		15108212
+

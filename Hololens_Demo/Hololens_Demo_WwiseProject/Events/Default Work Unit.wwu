@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_411444__vanceparley__arcade_sound" ID="{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}">
+					<ChildrenList>
+						<Action Name="" ID="{F709CE29-9DD9-4E9A-BA65-28B49F6C7719}" ShortID="522716204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="411444__vanceparley__arcade-sound" ID="{E3F8CB75-0B0A-4AF5-951C-4FE19A0A5245}" WorkUnitID="{53DB9D78-2B10-4684-A882-76F346C89D35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

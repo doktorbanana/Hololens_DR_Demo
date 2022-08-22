@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4AFA90C7-D957-44E2-9A04-4F960C730A17}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{4AFA90C7-D957-44E2-9A04-4F960C730A17}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4AFA90C7-D957-44E2-9A04-4F960C730A17}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{C49DBF3C-B5E0-4EC9-88E3-E4FEED4F7BEA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_411444__vanceparley__arcade_sound" ID="{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
