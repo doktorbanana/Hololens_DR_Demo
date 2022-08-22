@@ -30,8 +30,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1b4ce80cf1d24a46839087c64ecfa106
     GuidInternal: 
-    m_lastTime: -8585404231711440321
+    m_lastTime: -8585404193929355959
     List:
+    - name: Arcade Machine
+      guid: 9d98460f0bf6aa44b23d52de117c670e
+      id: 2753246078
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Arcade Machine
+        ObjectType: 2
+      Path: Default Work Unit\Arcade Machine
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -124,9 +133,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Hololens_Demo_WwiseProject
-  - /Hololens_Demo_WwiseProject/Events
-  - /Hololens_Demo_WwiseProject/Events/Default Work Unit
-  - /Hololens_Demo_WwiseProject/SoundBanks
-  - /Hololens_Demo_WwiseProject/SoundBanks/Default Work Unit
+  - /Hololens_Demo_WwiseProject/Auxiliary Busses
+  - /Hololens_Demo_WwiseProject/Auxiliary Busses/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
