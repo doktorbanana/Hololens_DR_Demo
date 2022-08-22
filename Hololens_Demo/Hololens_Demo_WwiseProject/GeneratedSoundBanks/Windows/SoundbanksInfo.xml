@@ -11,21 +11,21 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3430009567">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="326520681">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2156155586">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="568279670" Name="Play_411444__vanceparley__arcade_sound" ObjectPath="\Events\Default Work Unit\Play_411444__vanceparley__arcade_sound" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="85.647095" DurationMax="85.647095">
+				<Event Id="568279670" Name="Play_411444__vanceparley__arcade_sound" ObjectPath="\Events\Default Work Unit\Play_411444__vanceparley__arcade_sound" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="198750520" Language="SFX">
 							<ShortName>411444__vanceparley__arcade-sound.wav</ShortName>
-							<Path>SFX\411444__vanceparley__arcade-sound_10C4C929.wem</Path>
+							<Path>SFX\411444__vanceparley__arcade-sound_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

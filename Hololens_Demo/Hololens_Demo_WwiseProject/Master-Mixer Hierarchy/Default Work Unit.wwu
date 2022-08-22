@@ -10,6 +10,13 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<Bus Name="Arcade Machine" ID="{0F46989D-F60B-44AA-B23D-52DE117C670E}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{4C1CE2DE-8347-4EAA-B4E6-AE4B8FDB6647}" WorkUnitID="{3A67D84C-E161-458C-8C31-0025DD321BD4}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

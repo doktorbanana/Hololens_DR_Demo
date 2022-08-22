@@ -24,6 +24,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID ARCADE_MACHINE = 2753246078U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

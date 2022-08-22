@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e372aafbe657e814e9735ad62ce73f17
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spatialConnectOverlayPrefab: {fileID: 6603655975322669863, guid: e173765643fb56a4fa60dd3d7c9e61c8, type: 3}
+  - selectionSpherePrefab: {instanceID: 0}
+  - laserPointerPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

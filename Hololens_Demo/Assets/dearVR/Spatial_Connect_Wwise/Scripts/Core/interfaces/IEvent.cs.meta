@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< refs/remotes/origin/feature/SW-182/AK_API
+guid: 795a5d59b9fe37b4787148000080c53a
+=======
+guid: de8aefbe781870049b479eea5cee4abe
+>>>>>>> add first interfaces
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

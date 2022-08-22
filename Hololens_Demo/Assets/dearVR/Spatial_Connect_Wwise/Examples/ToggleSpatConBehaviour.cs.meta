@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b09972a61beb3f94c93c1247cb6234d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spatialConnectHandler: {fileID: 11400000, guid: 3b9835942cf84074ca20f78847186e0b, type: 2}
+  - centerEyeAnchor: {instanceID: 0}
+  - rightControllerAnchor: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -65,7 +65,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="Arcade Machine" ID="{0F46989D-F60B-44AA-B23D-52DE117C670E}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

@@ -124,6 +124,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Hololens_Demo_WwiseProject
+  - /Hololens_Demo_WwiseProject/Events
+  - /Hololens_Demo_WwiseProject/Events/Default Work Unit
   - /Hololens_Demo_WwiseProject/SoundBanks
+  - /Hololens_Demo_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
