@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	398513108	Play_dearVR_Drums			\Default Work Unit\Play_dearVR_Drums	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	921576885	dearVR_Drums	D:\Daten\Dear Reality\unity testing\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\dearVR_Drums_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\dearVR_Drums		3763296
-
