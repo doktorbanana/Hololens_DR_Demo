@@ -10,6 +10,8 @@ public class Asset_Manager : MonoBehaviour
     private GameObject arcade = null;
     [SerializeField]
     private GameObject speech = null;
+    [SerializeField]
+    private GameObject hint = null;
 
 
     // Start is called before the first frame update
@@ -28,6 +30,14 @@ public class Asset_Manager : MonoBehaviour
             }
         }else{
             Debug.LogWarning("3D Assets not assigned in Inspector. Can't Hide...");
+        }
+
+        if(hint){
+            if(Input.GetKeyDown("m")){
+                hint.SetActive(!hint.activeSelf);
+            }
+        }else{
+            Debug.LogWarning("Hint Assets not assigned in Inspector. Can't Hide...");
         }
     }
 }
