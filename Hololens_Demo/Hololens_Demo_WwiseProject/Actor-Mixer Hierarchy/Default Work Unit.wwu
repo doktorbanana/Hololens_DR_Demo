@@ -11,59 +11,11 @@
 					<ReferenceList>
 						<Reference Name="AttachableMixerInput">
 							<Custom>
-								<Effect Name="Oculus Spatializer (Attached)" ID="{726B70E3-F829-44F6-BFF1-671998CC90F3}" ShortID="913396373" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
-							</Custom>
-						</Reference>
-						<Reference Name="Attenuation">
-							<Custom>
-								<Attenuation Name="Attenuation (Custom)" ID="{6D5A4B54-72BD-4410-98B7-4E91FCB7C73C}" ShortID="380989897">
-									<CurveUsageInfoList>
-										<VolumeDryUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{05D7EF75-25DF-484B-9F28-B51562E33326}">
-													<PropertyList>
-														<Property Name="Flags" Type="int32" Value="3"/>
-													</PropertyList>
-													<PointList>
-														<Point>
-															<XPos>0</XPos>
-															<YPos>0</YPos>
-															<Flags>5</Flags>
-														</Point>
-														<Point>
-															<XPos>3.9185</XPos>
-															<YPos>-200</YPos>
-															<Flags>0</Flags>
-														</Point>
-														<Point>
-															<XPos>100</XPos>
-															<YPos>-200</YPos>
-															<Flags>37</Flags>
-														</Point>
-													</PointList>
-												</Curve>
-											</CurveUsageInfo>
-										</VolumeDryUsage>
-										<VolumeWetGameUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-										</VolumeWetGameUsage>
-										<VolumeWetUserUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-										</VolumeWetUserUsage>
-										<LowPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-										</LowPassFilterUsage>
-										<HighPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-										</HighPassFilterUsage>
-										<SpreadUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-										</SpreadUsage>
-										<FocusUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-										</FocusUsage>
-									</CurveUsageInfoList>
-								</Attenuation>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{726B70E3-F829-44F6-BFF1-671998CC90F3}" ShortID="913396373" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3">
+									<PropertyList>
+										<Property Name="UseInvSqAttenuation" Type="bool" Value="True"/>
+									</PropertyList>
+								</Effect>
 							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
@@ -94,7 +46,11 @@
 					<ReferenceList>
 						<Reference Name="AttachableMixerInput">
 							<Custom>
-								<Effect Name="Oculus Spatializer (Attached)" ID="{EE4DB7B7-C60B-4536-9BF5-78274913DF5D}" ShortID="706669614" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{EE4DB7B7-C60B-4536-9BF5-78274913DF5D}" ShortID="706669614" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3">
+									<PropertyList>
+										<Property Name="UseInvSqAttenuation" Type="bool" Value="True"/>
+									</PropertyList>
+								</Effect>
 							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
@@ -129,7 +85,11 @@
 					<ReferenceList>
 						<Reference Name="AttachableMixerInput">
 							<Custom>
-								<Effect Name="Oculus Spatializer (Attached)" ID="{802B9A59-EDAD-4DAA-B6A8-461B7E65C6B8}" ShortID="127001504" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{802B9A59-EDAD-4DAA-B6A8-461B7E65C6B8}" ShortID="127001504" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3">
+									<PropertyList>
+										<Property Name="UseInvSqAttenuation" Type="bool" Value="True"/>
+									</PropertyList>
+								</Effect>
 							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
