@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 054153a3ab99aad40b14700596cd2d00, type: 3}
+  m_Name: 47CCC530-428D-4117-A0C2-F67FA229BA2C
+  m_EditorClassIdentifier: 
+  objectName: Play_458118__joncon_library__coffeemaschine_making_coffee_01
+  id: 2783084687
+  guid: 47CCC530-428D-4117-A0C2-F67FA229BA2C

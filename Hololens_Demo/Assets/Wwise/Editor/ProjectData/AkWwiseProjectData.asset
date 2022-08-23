@@ -30,17 +30,45 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1b4ce80cf1d24a46839087c64ecfa106
     GuidInternal: 
-    m_lastTime: -8585404193929355959
+    m_lastTime: -8585403669332715441
     List:
+    - name: 3D Audio
+      guid: 92d16c097cca0a459b51305f3d0bd962
+      id: 4122844158
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio
     - name: Arcade Machine
-      guid: 9d98460f0bf6aa44b23d52de117c670e
+      guid: 18fe25aed225984981d04fca8a521ef0
       id: 2753246078
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
       - ElementName: Arcade Machine
         ObjectType: 2
-      Path: Default Work Unit\Arcade Machine
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine
+    - name: Coffee Maker
+      guid: f20b3d5de727a240b5b8bca9cfd9e23f
+      id: 2316283105
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Coffee Maker
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Coffee Maker
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -50,6 +78,19 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
+    - name: Speech
+      guid: 8585f05168e56a4aaeb4d2780a08fece
+      id: 4245458931
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Speech
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Speech
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -58,7 +99,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c790fa4a57d9e2449a044f960c730a17
     GuidInternal: 
-    m_lastTime: -8585404226662069718
+    m_lastTime: -8585403650107715633
     List:
     - name: Main
       guid: 3cbf9dc4e0b5c94e88e3e4feed4f7bea
@@ -77,8 +118,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 188d8cc370839f4098a5d1c49c08daf4
     GuidInternal: 
-    m_lastTime: -8585404226662134115
+    m_lastTime: -8585403657260367102
     List:
+    - name: Play_24096__acclivity__henry5
+      guid: 749a1266631c3243a38b449999859609
+      id: 868195148
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_24096__acclivity__henry5
+        ObjectType: 3
+      Path: Default Work Unit\Play_24096__acclivity__henry5
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_411444__vanceparley__arcade_sound
       guid: 9853e3a20277f9428f9e94fab70ccac9
       id: 568279670
@@ -89,8 +142,20 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_411444__vanceparley__arcade_sound
       maxAttenuation: 100000000
-      maxDuration: 85647096
-      minDuration: 85647096
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_458118__joncon_library__coffeemaschine_making_coffee_01
+      guid: 30c5cc478d421741a0c2f67fa229ba2c
+      id: 2783084687
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_458118__joncon_library__coffeemaschine_making_coffee_01
+        ObjectType: 3
+      Path: Default Work Unit\Play_458118__joncon_library__coffeemaschine_making_coffee_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -133,7 +198,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Hololens_Demo_WwiseProject
-  - /Hololens_Demo_WwiseProject/Auxiliary Busses
-  - /Hololens_Demo_WwiseProject/Auxiliary Busses/Default Work Unit
+  - /Hololens_Demo_WwiseProject/Events
+  - /Hololens_Demo_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

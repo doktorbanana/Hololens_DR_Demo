@@ -1,6 +1,12 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	2753246078	Arcade Machine			\Default Work Unit\Arcade Machine	
+	2316283105	Coffee Maker			\Default Work Unit\Master Audio Bus\3D Audio\Coffee Maker	
+	2753246078	Arcade Machine			\Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4122844158	3D Audio			\Default Work Unit\Master Audio Bus\3D Audio	
+	4245458931	Speech			\Default Work Unit\Master Audio Bus\3D Audio\Speech	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1053128284	Oculus_Spatializer_(Custom)	Oculus Spatializer			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

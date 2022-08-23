@@ -9,6 +9,11 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{726B70E3-F829-44F6-BFF1-671998CC90F3}" ShortID="913396373" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{6D5A4B54-72BD-4410-98B7-4E91FCB7C73C}" ShortID="380989897">
@@ -65,7 +70,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Arcade Machine" ID="{0F46989D-F60B-44AA-B23D-52DE117C670E}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="Arcade Machine" ID="{AE25FE18-25D2-4998-81D0-4FCA8A521EF0}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -79,6 +84,72 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="411444__vanceparley__arcade-sound" ID="{11AAECE3-4088-4F39-B3B9-F43DE02E83B9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="458118__joncon-library__coffeemaschine-making-coffee-04" ID="{4DA3566E-C797-4FCF-8CDE-09008BFEFAF2}" ShortID="8888056">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{EE4DB7B7-C60B-4536-9BF5-78274913DF5D}" ShortID="706669614" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Coffee Maker" ID="{5D3D0BF2-27E7-40A2-B5B8-BCA9CFD9E23F}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="458118__joncon-library__coffeemaschine-making-coffee-04" ID="{F6D9E42D-F2E4-419F-BE7B-F8ADDD327E80}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="20.8412562459703"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>458118__joncon-library__coffeemaschine-making-coffee-04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="444700771"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="458118__joncon-library__coffeemaschine-making-coffee-04" ID="{F6D9E42D-F2E4-419F-BE7B-F8ADDD327E80}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="24096__acclivity__henry5" ID="{57EF0116-86E7-44B6-B41F-33A4E34550EC}" ShortID="244815907">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{802B9A59-EDAD-4DAA-B6A8-461B7E65C6B8}" ShortID="127001504" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Speech" ID="{51F08585-E568-4A6A-AEB4-D2780A08FECE}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="24096__acclivity__henry5" ID="{7B71AACC-ACD5-4717-9EAB-4A35E3F2BEB9}">
+							<Language>SFX</Language>
+							<AudioFile>24096__acclivity__henry5.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="199558818"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="24096__acclivity__henry5" ID="{7B71AACC-ACD5-4717-9EAB-4A35E3F2BEB9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

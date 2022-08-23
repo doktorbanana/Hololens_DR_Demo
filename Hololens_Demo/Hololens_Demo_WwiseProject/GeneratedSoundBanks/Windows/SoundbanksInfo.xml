@@ -11,21 +11,37 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3430009567">
+		<SoundBank Id="1355168291" Language="SFX" Hash="30599354">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2156155586">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3075781254">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="568279670" Name="Play_411444__vanceparley__arcade_sound" ObjectPath="\Events\Default Work Unit\Play_411444__vanceparley__arcade_sound" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="868195148" Name="Play_24096__acclivity__henry5" ObjectPath="\Events\Default Work Unit\Play_24096__acclivity__henry5" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="199558818" Language="SFX">
+							<ShortName>24096__acclivity__henry5.wav</ShortName>
+							<Path>SFX\24096__acclivity__henry5_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="568279670" Name="Play_411444__vanceparley__arcade_sound" ObjectPath="\Events\Default Work Unit\Play_411444__vanceparley__arcade_sound" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="198750520" Language="SFX">
 							<ShortName>411444__vanceparley__arcade-sound.wav</ShortName>
 							<Path>SFX\411444__vanceparley__arcade-sound_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2783084687" Name="Play_458118__joncon_library__coffeemaschine_making_coffee_01" ObjectPath="\Events\Default Work Unit\Play_458118__joncon_library__coffeemaschine_making_coffee_01" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="444700771" Language="SFX">
+							<ShortName>458118__joncon-library__coffeemaschine-making-coffee-04.wav</ShortName>
+							<Path>SFX\458118__joncon-library__coffeemaschine-making-coffee-04_B36C656D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

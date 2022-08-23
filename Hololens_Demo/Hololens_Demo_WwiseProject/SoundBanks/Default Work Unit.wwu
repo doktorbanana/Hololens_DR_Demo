@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C49DBF3C-B5E0-4EC9-88E3-E4FEED4F7BEA}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_458118__joncon_library__coffeemaschine_making_coffee_01" ID="{47CCC530-428D-4117-A0C2-F67FA229BA2C}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_411444__vanceparley__arcade_sound" ID="{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_24096__acclivity__henry5" ID="{66129A74-1C63-4332-A38B-449999859609}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

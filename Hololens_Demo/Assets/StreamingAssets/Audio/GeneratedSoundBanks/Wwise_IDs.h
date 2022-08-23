@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_24096__ACCLIVITY__HENRY5 = 868195148U;
         static const AkUniqueID PLAY_411444__VANCEPARLEY__ARCADE_SOUND = 568279670U;
+        static const AkUniqueID PLAY_458118__JONCON_LIBRARY__COFFEEMASCHINE_MAKING_COFFEE_01 = 2783084687U;
     } // namespace EVENTS
 
     namespace BANKS
@@ -24,8 +26,11 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID _3D_AUDIO = 4122844158U;
         static const AkUniqueID ARCADE_MACHINE = 2753246078U;
+        static const AkUniqueID COFFEE_MAKER = 2316283105U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID SPEECH = 4245458931U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

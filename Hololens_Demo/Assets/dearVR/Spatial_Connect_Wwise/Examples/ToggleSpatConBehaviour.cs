@@ -69,7 +69,7 @@ public class ToggleSpatConBehaviour : MonoBehaviour
             }
             else
             {
-                Debug.Log("Couldn't find Hand using something else as anchor");
+                Debug.LogWarning("Couldn't find Hand using something else as anchor");
                 Vector3 pos = centerEyeAnchor.position;
                 pos = pos + new Vector3(-1f, -1.5f, 0f);
                 GameObject defaultLeftAnchor = new GameObject();
@@ -77,13 +77,13 @@ public class ToggleSpatConBehaviour : MonoBehaviour
                 leftControllerAnchor = defaultLeftAnchor.transform;
             }
 
-            if (GameObject.Find("Right_RiggedHandLeft(Clone)"))
+            if (GameObject.Find("Right_RiggedHandRight(Clone)"))
             {
-                leftControllerAnchor = GameObject.Find("Right_RiggedHandLeft(Clone)").transform;
+                leftControllerAnchor = GameObject.Find("Right_RiggedHandRight(Clone)").transform;
             }
             else
             {
-                Debug.Log("Couldn't find Hand using something else as anchor");
+                Debug.LogWarning("Couldn't find Hand using something else as anchor");
                 Vector3 pos = centerEyeAnchor.position;
                 pos = pos + new Vector3(1f, -1.5f, 0f);
                 GameObject defaultLeftAnchor = new GameObject();

@@ -9,13 +9,22 @@
 							<ObjectRef Name="System" ID="{4C1CE2DE-8347-4EAA-B4E6-AE4B8FDB6647}" WorkUnitID="{3A67D84C-E161-458C-8C31-0025DD321BD4}"/>
 						</Reference>
 					</ReferenceList>
-				</Bus>
-				<Bus Name="Arcade Machine" ID="{0F46989D-F60B-44AA-B23D-52DE117C670E}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{4C1CE2DE-8347-4EAA-B4E6-AE4B8FDB6647}" WorkUnitID="{3A67D84C-E161-458C-8C31-0025DD321BD4}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}">
+							<ReferenceList>
+								<Reference Name="Mixer">
+									<Custom>
+										<Effect Name="Oculus_Spatializer_(Custom)" ID="{6CBCCC83-CC8F-48F1-A132-F24BB01DC889}" ShortID="1053128284" PluginName="Oculus Spatializer" CompanyID="266" PluginID="146" PluginType="6"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Arcade Machine" ID="{AE25FE18-25D2-4998-81D0-4FCA8A521EF0}"/>
+								<Bus Name="Coffee Maker" ID="{5D3D0BF2-27E7-40A2-B5B8-BCA9CFD9E23F}"/>
+								<Bus Name="Speech" ID="{51F08585-E568-4A6A-AEB4-D2780A08FECE}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
