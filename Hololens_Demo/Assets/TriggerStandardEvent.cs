@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using SpatialConnect.Wwise;
 using SpatialConnect.Wwise.Core;
-
+using UnityEngine.XR;
+using Peter.Hololens;
 
 public class TriggerStandardEvent : MonoBehaviour
 {
-    public InputBehaviour inputBehaviour;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,10 @@ public class TriggerStandardEvent : MonoBehaviour
     }
 
     public void TriggerEvent(){
-        Debug.Log("Trigger Event here");
-        //OnStandardInteractionStateChanged(true);
+        GetHololensInput.input = true;
+    }
+
+    public void unTriggerEvent(){
+        GetHololensInput.input = false;
     }
 }

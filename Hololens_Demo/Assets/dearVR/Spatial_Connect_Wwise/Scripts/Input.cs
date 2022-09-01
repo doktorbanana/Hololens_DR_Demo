@@ -2,6 +2,8 @@
 using System.Linq;
 using UnityEngine.XR;
 using SpatialConnect.Wwise.Core;
+using Microsoft.MixedReality.Toolkit.Input;
+using Peter.Hololens;
 
 namespace SpatialConnect.Wwise
 {
@@ -23,7 +25,7 @@ namespace SpatialConnect.Wwise
     public class Input : IInput
     {
         public bool LeftIndexTrigger => GetDeviceInput(leftInputDevices_, CommonUsages.triggerButton);
-        public bool RightIndexTrigger => GetDeviceInput(rightInputDevices_, CommonUsages.triggerButton);
+        public bool RightIndexTrigger => GetHololensInput.HololensInput(); //GetDeviceInput(rightInputDevices_, CommonUsages.triggerButton);
         public bool LeftHandTrigger => GetDeviceInput(leftInputDevices_, CommonUsages.gripButton);
         public bool RightHandTrigger => GetDeviceInput(rightInputDevices_, CommonUsages.gripButton);
         public bool LeftThumbstickClick => GetDeviceInput(leftInputDevices_, CommonUsages.primary2DAxisClick);

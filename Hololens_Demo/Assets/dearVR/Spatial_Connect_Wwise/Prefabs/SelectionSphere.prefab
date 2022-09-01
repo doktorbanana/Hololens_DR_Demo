@@ -148,7 +148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775340738821494735}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19fe7721a0743104baae38e46537705b, type: 3}
   m_Name: 
@@ -176,7 +176,19 @@ MonoBehaviour:
         m_CallState: 2
   OnInputActionEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7546181011614341031}
+        m_TargetAssemblyTypeName: TriggerStandardEvent, Assembly-CSharp
+        m_MethodName: unTriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7546181011614341031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,9 +196,8 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775340738821494735}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ad5c8190d9cdfb4f933b900028ba937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputBehaviour: {fileID: 0}
