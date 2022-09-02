@@ -18,6 +18,9 @@ public class FindHand : MonoBehaviour
             
             pos = GameObject.Find(handName).transform.position;
             this.transform.position = pos;
+            
+            Vector3 angles = GameObject.Find(handName).transform.localEulerAngles;
+            this.transform.localEulerAngles = angles;
         }else{
             Debug.LogWarning("Couldn't Find Hand!");
         }

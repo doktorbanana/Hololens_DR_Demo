@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="30599354">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2120569504">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3075781254">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1306497146">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="444700771" Language="SFX">
 							<ShortName>458118__joncon-library__coffeemaschine-making-coffee-04.wav</ShortName>
-							<Path>SFX\458118__joncon-library__coffeemaschine-making-coffee-04_B36C656D.wem</Path>
+							<Path>SFX\458118__joncon-library__coffeemaschine-making-coffee-04_3D2C19D1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

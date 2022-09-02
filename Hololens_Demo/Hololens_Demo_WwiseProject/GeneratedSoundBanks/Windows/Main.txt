@@ -11,5 +11,5 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	198750520	411444__vanceparley__arcade-sound	D:\Daten\Dear Reality\unity testing\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\411444__vanceparley__arcade-sound_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\411444__vanceparley__arcade-sound		15108212
 	199558818	24096__acclivity__henry5	D:\Daten\Dear Reality\unity testing\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\24096__acclivity__henry5_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\24096__acclivity__henry5		37050876
-	444700771	458118__joncon-library__coffeemaschine-making-coffee-04	D:\Daten\Dear Reality\unity testing\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\458118__joncon-library__coffeemaschine-making-coffee-04_B36C656D.wem		\Actor-Mixer Hierarchy\Default Work Unit\458118__joncon-library__coffeemaschine-making-coffee-04		12241468
+	444700771	458118__joncon-library__coffeemaschine-making-coffee-04	D:\Daten\Dear Reality\unity testing\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\458118__joncon-library__coffeemaschine-making-coffee-04_3D2C19D1.wem		\Actor-Mixer Hierarchy\Default Work Unit\458118__joncon-library__coffeemaschine-making-coffee-04		12241468
 
