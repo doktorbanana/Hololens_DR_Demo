@@ -13,9 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_24096__ACCLIVITY__HENRY5 = 868195148U;
-        static const AkUniqueID PLAY_411444__VANCEPARLEY__ARCADE_SOUND = 568279670U;
-        static const AkUniqueID PLAY_458118__JONCON_LIBRARY__COFFEEMASCHINE_MAKING_COFFEE_01 = 2783084687U;
+        static const AkUniqueID PLAY_ARCADE = 989013682U;
+        static const AkUniqueID PLAY_COFFEE = 1012391550U;
+        static const AkUniqueID PLAY_SPEECH = 4122783924U;
     } // namespace EVENTS
 
     namespace BANKS

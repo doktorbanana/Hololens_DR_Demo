@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	568279670	Play_411444__vanceparley__arcade_sound			\Default Work Unit\Play_411444__vanceparley__arcade_sound	
-	868195148	Play_24096__acclivity__henry5			\Default Work Unit\Play_24096__acclivity__henry5	
-	2783084687	Play_458118__joncon_library__coffeemaschine_making_coffee_01			\Default Work Unit\Play_458118__joncon_library__coffeemaschine_making_coffee_01	
+	989013682	Play_Arcade			\Default Work Unit\Play_Arcade	
+	1012391550	Play_coffee			\Default Work Unit\Play_coffee	
+	4122783924	Play_Speech			\Default Work Unit\Play_Speech	
 
 Effect plug-ins	ID	Name	Type				Notes
 	127001504	Oculus Spatializer (Attached)	AttachableMixerInput			

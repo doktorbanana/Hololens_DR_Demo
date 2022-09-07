@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_411444__vanceparley__arcade_sound" ID="{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}">
+				<Event Name="Play_Arcade" ID="{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}">
 					<ChildrenList>
 						<Action Name="" ID="{F709CE29-9DD9-4E9A-BA65-28B49F6C7719}" ShortID="522716204">
 							<ReferenceList>
@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_458118__joncon_library__coffeemaschine_making_coffee_01" ID="{47CCC530-428D-4117-A0C2-F67FA229BA2C}">
+				<Event Name="Play_coffee" ID="{47CCC530-428D-4117-A0C2-F67FA229BA2C}">
 					<ChildrenList>
 						<Action Name="" ID="{2A3C2767-CC32-4D95-B36B-559EDC2EAC6B}" ShortID="942411616">
 							<ReferenceList>
@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_24096__acclivity__henry5" ID="{66129A74-1C63-4332-A38B-449999859609}">
+				<Event Name="Play_Speech" ID="{66129A74-1C63-4332-A38B-449999859609}">
 					<ChildrenList>
 						<Action Name="" ID="{F9A98D0C-0E36-464C-A58D-74754EB09077}" ShortID="745865555">
 							<ReferenceList>
