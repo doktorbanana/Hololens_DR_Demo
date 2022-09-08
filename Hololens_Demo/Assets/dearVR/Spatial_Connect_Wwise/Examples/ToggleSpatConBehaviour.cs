@@ -11,15 +11,18 @@ public class ToggleSpatConBehaviour : MonoBehaviour
     [SerializeField] private KeyCode toggleVisibilityKey = KeyCode.LeftShift;
     [SerializeField] private KeyCode remoteConnectKey = KeyCode.Tab;
     [SerializeField] private bool showOnEnable = false;
-
     private readonly RemoteConnector remoteConnector_ = new RemoteConnector();
 
     private bool overlayActive_;
     private bool overlayVisible_;
     
+    private void Awake(){
+        centerEyeAnchor = GameObject.Find("UIRaycastCamera").transform;
+        Enable();
+    }
+
     private void Start()
     {
-        centerEyeAnchor = GameObject.Find("UIRaycastCamera").transform;
 
     }
 
@@ -60,7 +63,28 @@ public class ToggleSpatConBehaviour : MonoBehaviour
                 Hide();
         }
 
-        void Enable()
+       
+        
+        void Disable()
+        {
+            spatialConnectHandler.DisableOverlay();
+            overlayActive_ = false;
+        }
+        
+        void Show()
+        {
+            spatialConnectHandler.ShowOverlay();
+            overlayVisible_ = true;
+        }
+        
+        void Hide()
+        {
+            spatialConnectHandler.HideOverlay();
+            overlayVisible_ = false;
+        }
+    }
+
+    private void Enable()
         {
 
             if (GameObject.Find("Left_RiggedHandLeft(Clone)"))
@@ -95,23 +119,6 @@ public class ToggleSpatConBehaviour : MonoBehaviour
             overlayActive_ = true;
             overlayVisible_ = false;
         }
-        
-        void Disable()
-        {
-            spatialConnectHandler.DisableOverlay();
-            overlayActive_ = false;
-        }
-        
-        void Show()
-        {
-            spatialConnectHandler.ShowOverlay();
-            overlayVisible_ = true;
-        }
-        
-        void Hide()
-        {
-            spatialConnectHandler.HideOverlay();
-            overlayVisible_ = false;
-        }
-    }
 }
+
+
