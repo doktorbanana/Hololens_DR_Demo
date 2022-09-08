@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-0.851564168930054</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{4C1CE2DE-8347-4EAA-B4E6-AE4B8FDB6647}" WorkUnitID="{3A67D84C-E161-458C-8C31-0025DD321BD4}"/>
@@ -11,6 +18,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Mixer">
 									<Custom>
@@ -19,9 +33,33 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Bus Name="Arcade Machine" ID="{AE25FE18-25D2-4998-81D0-4FCA8A521EF0}"/>
-								<Bus Name="Coffee Maker" ID="{5D3D0BF2-27E7-40A2-B5B8-BCA9CFD9E23F}"/>
-								<Bus Name="Speech" ID="{51F08585-E568-4A6A-AEB4-D2780A08FECE}"/>
+								<Bus Name="Arcade Machine" ID="{AE25FE18-25D2-4998-81D0-4FCA8A521EF0}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4.3932580947876</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Coffee Maker" ID="{5D3D0BF2-27E7-40A2-B5B8-BCA9CFD9E23F}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10.7829494476318</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Speech" ID="{51F08585-E568-4A6A-AEB4-D2780A08FECE}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8.35584831237793</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>
