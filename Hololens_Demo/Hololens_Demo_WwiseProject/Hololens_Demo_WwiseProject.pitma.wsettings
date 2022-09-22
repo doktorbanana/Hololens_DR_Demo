@@ -6,7 +6,11 @@
 				<Property Name="Event Action List\{022126E9-CCC6-4702-9FE6-4BF11DEA0096}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{47CCC530-428D-4117-A0C2-F67FA229BA2C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66129A74-1C63-4332-A38B-449999859609}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{789A2CE8-94D7-4C6D-A694-C370661AE9E5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7A104425-6FF8-46F7-A210-24105EEAE835}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C0ADFC06-8D69-4A3D-9288-4EA89951F89D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D074B0DA-BCAC-46F1-88A6-815EEF7A5667}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -27,7 +31,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="91jI3kr+aE2n3EiFR9Vd8A=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="PL+dxOC1yU6I4+T+7U976g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="u3FkC7bCeUCQO6ziS0oSzgGPfwj/////KZiYA/8ugkCN9NnU+NpubQGPfwj/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="u3FkC7bCeUCQO6ziS0oSzgGPezD/////KZiYA/8ugkCN9NnU+NpubQGPezD/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

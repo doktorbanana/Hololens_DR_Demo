@@ -4,6 +4,5 @@
 		<Plugin Name="Oculus Spatializer" ID="9572518" DLL="OculusSpatializerWwise"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
-		<Plugin Name="AttachableMixerInput" ID="32837795" DLL="OculusSpatializerWwise"/>
 	</Plugins>
 </PluginInfo>

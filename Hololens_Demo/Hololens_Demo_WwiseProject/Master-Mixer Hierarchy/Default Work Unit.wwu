@@ -60,6 +60,10 @@
 										</Property>
 									</PropertyList>
 								</Bus>
+								<Bus Name="Chords L" ID="{5D8DE75F-1665-49C7-AAFD-23DCAA72D1F8}"/>
+								<Bus Name="Chords R" ID="{A08D648B-982D-4C0F-AAE6-0725F51D98DD}"/>
+								<Bus Name="Kick Drum" ID="{1ABEB084-3DA1-4EFB-B3E5-AEDA3E13A3DB}"/>
+								<Bus Name="Hats and Snare" ID="{3F6FF701-4767-4079-889A-47FC12EF4479}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

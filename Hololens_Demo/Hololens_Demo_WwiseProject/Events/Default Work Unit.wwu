@@ -36,6 +36,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_HH___Snare" ID="{C0ADFC06-8D69-4A3D-9288-4EA89951F89D}">
+					<ChildrenList>
+						<Action Name="" ID="{4ACE3842-3ED3-4B9C-84CA-37F8D3B4BE3D}" ShortID="297676032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HH + Snare" ID="{C60FF8E4-A1C3-43E8-8EDF-38C716481DFC}" WorkUnitID="{53DB9D78-2B10-4684-A882-76F346C89D35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Kick" ID="{7A104425-6FF8-46F7-A210-24105EEAE835}">
+					<ChildrenList>
+						<Action Name="" ID="{C04A17FB-3F10-4923-818E-A75EE0224F63}" ShortID="386752854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kick" ID="{29296E8E-48CE-4AF3-98C6-78CC643980B9}" WorkUnitID="{53DB9D78-2B10-4684-A882-76F346C89D35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stems_Chords_L" ID="{789A2CE8-94D7-4C6D-A694-C370661AE9E5}">
+					<ChildrenList>
+						<Action Name="" ID="{A1DB085E-DEF2-44F4-BC82-0F2FA78FFFFD}" ShortID="711994624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stems Chords L" ID="{A15F0A02-7AFE-4B18-B42E-B1D04908A879}" WorkUnitID="{53DB9D78-2B10-4684-A882-76F346C89D35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stems_Chords_R" ID="{D074B0DA-BCAC-46F1-88A6-815EEF7A5667}">
+					<ChildrenList>
+						<Action Name="" ID="{79E6515C-7D17-4DEB-A159-DAB439BE8E54}" ShortID="572166403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stems Chords R" ID="{3D383CD2-0AFF-48C9-9BED-E360D81C9E2D}" WorkUnitID="{53DB9D78-2B10-4684-A882-76F346C89D35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

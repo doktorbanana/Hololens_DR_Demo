@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1b4ce80cf1d24a46839087c64ecfa106
     GuidInternal: 
-    m_lastTime: -8585378547738588748
+    m_lastTime: -8585377675823195651
     List:
     - name: 3D Audio
       guid: 92d16c097cca0a459b51305f3d0bd962
@@ -56,6 +56,32 @@ MonoBehaviour:
       - ElementName: Arcade Machine
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine
+    - name: Chords L
+      guid: 5fe78d5d6516c749aafd23dcaa72d1f8
+      id: 712803560
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Chords L
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Chords L
+    - name: Chords R
+      guid: 8b648da02d980f4caae60725f51d98dd
+      id: 712803574
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Chords R
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Chords R
     - name: Coffee Maker
       guid: f20b3d5de727a240b5b8bca9cfd9e23f
       id: 2316283105
@@ -69,6 +95,32 @@ MonoBehaviour:
       - ElementName: Coffee Maker
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\3D Audio\Coffee Maker
+    - name: Hats and Snare
+      guid: 01f76f3f67477940889a47fc12ef4479
+      id: 3939317979
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Hats and Snare
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Hats and Snare
+    - name: Kick Drum
+      guid: 84b0be1aa13dfb4eb3e5aeda3e13a3db
+      id: 1553909153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Kick Drum
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Kick Drum
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -118,7 +170,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 188d8cc370839f4098a5d1c49c08daf4
     GuidInternal: 
-    m_lastTime: -8585389601914782021
+    m_lastTime: -8585377659071539271
     List:
     - name: Play_Arcade
       guid: 9853e3a20277f9428f9e94fab70ccac9
@@ -144,6 +196,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_HH___Snare
+      guid: 06fcadc0698d3d4a92884ea89951f89d
+      id: 2625374342
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_HH___Snare
+        ObjectType: 3
+      Path: Default Work Unit\Play_HH___Snare
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Kick
+      guid: 2544107af86ff746a21024105eeae835
+      id: 711699424
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Kick
+        ObjectType: 3
+      Path: Default Work Unit\Play_Kick
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Speech
       guid: 749a1266631c3243a38b449999859609
       id: 4122783924
@@ -153,6 +229,30 @@ MonoBehaviour:
       - ElementName: Play_Speech
         ObjectType: 3
       Path: Default Work Unit\Play_Speech
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Stems_Chords_L
+      guid: e82c9a78d7946d4ca694c370661ae9e5
+      id: 3938154147
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Stems_Chords_L
+        ObjectType: 3
+      Path: Default Work Unit\Play_Stems_Chords_L
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Stems_Chords_R
+      guid: dab074d0acbcf14688a6815eef7a5667
+      id: 3938154173
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Stems_Chords_R
+        ObjectType: 3
+      Path: Default Work Unit\Play_Stems_Chords_R
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

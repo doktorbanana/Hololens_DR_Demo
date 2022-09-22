@@ -1,7 +1,11 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	712803560	Chords L			\Default Work Unit\Master Audio Bus\3D Audio\Chords L	
+	712803574	Chords R			\Default Work Unit\Master Audio Bus\3D Audio\Chords R	
+	1553909153	Kick Drum			\Default Work Unit\Master Audio Bus\3D Audio\Kick Drum	
 	2316283105	Coffee Maker			\Default Work Unit\Master Audio Bus\3D Audio\Coffee Maker	
 	2753246078	Arcade Machine			\Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3939317979	Hats and Snare			\Default Work Unit\Master Audio Bus\3D Audio\Hats and Snare	
 	4122844158	3D Audio			\Default Work Unit\Master Audio Bus\3D Audio	
 	4245458931	Speech			\Default Work Unit\Master Audio Bus\3D Audio\Speech	
 
