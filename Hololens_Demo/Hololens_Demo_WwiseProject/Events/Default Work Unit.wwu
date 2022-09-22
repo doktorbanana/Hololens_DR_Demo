@@ -80,6 +80,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Bass" ID="{BFCAD8F5-0735-4AB8-B261-5164FC990612}">
+					<ChildrenList>
+						<Action Name="" ID="{CDEDC993-FB41-409F-B195-1ACC408D8B0D}" ShortID="618175359">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bass" ID="{88CFAD72-4745-4CEA-9AA0-8D807C380E04}" WorkUnitID="{53DB9D78-2B10-4684-A882-76F346C89D35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

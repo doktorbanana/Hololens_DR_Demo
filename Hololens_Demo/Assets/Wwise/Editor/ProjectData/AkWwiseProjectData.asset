@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1b4ce80cf1d24a46839087c64ecfa106
     GuidInternal: 
-    m_lastTime: -8585377675823195651
+    m_lastTime: -8585377578494085076
     List:
     - name: 3D Audio
       guid: 92d16c097cca0a459b51305f3d0bd962
@@ -56,6 +56,19 @@ MonoBehaviour:
       - ElementName: Arcade Machine
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine
+    - name: Bass
+      guid: 949b5ce4f2f43d4d9362fffb0c9b5b9a
+      id: 1291433344
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: Bass
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Bass
     - name: Chords L
       guid: 5fe78d5d6516c749aafd23dcaa72d1f8
       id: 712803560
@@ -151,7 +164,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c790fa4a57d9e2449a044f960c730a17
     GuidInternal: 
-    m_lastTime: -8585389652976500215
+    m_lastTime: -8585377578493935478
     List:
     - name: Main
       guid: 3cbf9dc4e0b5c94e88e3e4feed4f7bea
@@ -170,7 +183,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 188d8cc370839f4098a5d1c49c08daf4
     GuidInternal: 
-    m_lastTime: -8585377659071539271
+    m_lastTime: -8585377578494014990
     List:
     - name: Play_Arcade
       guid: 9853e3a20277f9428f9e94fab70ccac9
@@ -181,6 +194,18 @@ MonoBehaviour:
       - ElementName: Play_Arcade
         ObjectType: 3
       Path: Default Work Unit\Play_Arcade
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Bass
+      guid: f5d8cabf3507b84ab2615164fc990612
+      id: 1560528335
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Bass
+        ObjectType: 3
+      Path: Default Work Unit\Play_Bass
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -300,7 +325,5 @@ MonoBehaviour:
   - /Hololens_Demo_WwiseProject
   - /Hololens_Demo_WwiseProject/Events
   - /Hololens_Demo_WwiseProject/Events/Default Work Unit
-  - /Hololens_Demo_WwiseProject/SoundBanks
-  - /Hololens_Demo_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

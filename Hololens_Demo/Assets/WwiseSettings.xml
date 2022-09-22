@@ -9,6 +9,6 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>D:\Programme\Dear Reality\Wwise 2019.2.11.7512</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../Hololens_Demo/Hololens_Demo_WwiseProject/Hololens_Demo_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseInstallationPathWindows>E:\Wwise 2019</WwiseInstallationPathWindows>
+  <WwiseProjectPath>../Hololens_Demo_WwiseProject/Hololens_Demo_WwiseProject.wproj</WwiseProjectPath>
 </WwiseSettings>

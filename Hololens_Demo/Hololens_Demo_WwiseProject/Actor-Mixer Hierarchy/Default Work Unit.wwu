@@ -114,6 +114,7 @@
 				</Sound>
 				<Sound Name="HH + Snare" ID="{C60FF8E4-A1C3-43E8-8EDF-38C716481DFC}" ShortID="767170432">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -131,6 +132,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="HH + Snare Audio 0001 [2022-09-22 090751]" ID="{4F949A2F-C78B-4899-A190-14504CA8F755}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="32"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>HH + Snare Audio 0001 [2022-09-22 090751].wav</AudioFile>
 							<MediaIDList>
@@ -144,6 +149,7 @@
 				</Sound>
 				<Sound Name="Kick" ID="{29296E8E-48CE-4AF3-98C6-78CC643980B9}" ShortID="519162858">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -161,6 +167,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Kick Audio 0001 [2022-09-22 090746]" ID="{4215ED37-4E22-4DC1-A821-2AD8B278C4DF}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="32"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Kick Audio 0001 [2022-09-22 090746].wav</AudioFile>
 							<MediaIDList>
@@ -174,6 +184,7 @@
 				</Sound>
 				<Sound Name="Stems Chords L" ID="{A15F0A02-7AFE-4B18-B42E-B1D04908A879}" ShortID="234256990">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -191,6 +202,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Stems Chords L" ID="{B99404A5-A20C-4D4B-B624-6E4D1229A88C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Stems Chords L.wav</AudioFile>
 							<MediaIDList>
@@ -204,6 +218,7 @@
 				</Sound>
 				<Sound Name="Stems Chords R" ID="{3D383CD2-0AFF-48C9-9BED-E360D81C9E2D}" ShortID="294541424">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -230,6 +245,40 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Stems Chords R" ID="{E8775C7E-3ED1-4E4D-8D81-E53B6A76A8B1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Bass" ID="{88CFAD72-4745-4CEA-9AA0-8D807C380E04}" ShortID="391926419">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{8075D732-7B80-4973-968D-E41120A983B8}" ShortID="289421914" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Bass" ID="{E45C9B94-F4F2-4D3D-9362-FFFB0C9B5B9A}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bass" ID="{1174766F-0C23-4300-BBDD-21939F84AF34}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="32"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Bass.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="869967107"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bass" ID="{1174766F-0C23-4300-BBDD-21939F84AF34}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -4,7 +4,16 @@
 		<WorkUnit Name="Default Work Unit" ID="{4AFA90C7-D957-44E2-9A04-4F960C730A17}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C49DBF3C-B5E0-4EC9-88E3-E4FEED4F7BEA}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_coffee" ID="{47CCC530-428D-4117-A0C2-F67FA229BA2C}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Arcade" ID="{A2E35398-7702-42F9-8F9E-94FAB70CCAC9}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Speech" ID="{66129A74-1C63-4332-A38B-449999859609}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stems_Chords_R" ID="{D074B0DA-BCAC-46F1-88A6-815EEF7A5667}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Kick" ID="{7A104425-6FF8-46F7-A210-24105EEAE835}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HH___Snare" ID="{C0ADFC06-8D69-4A3D-9288-4EA89951F89D}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bass" ID="{BFCAD8F5-0735-4AB8-B261-5164FC990612}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stems_Chords_L" ID="{789A2CE8-94D7-4C6D-A694-C370661AE9E5}" WorkUnitID="{C38C8D18-8370-409F-98A5-D1C49C08DAF4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
