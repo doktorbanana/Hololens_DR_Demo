@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054153a3ab99aad40b14700596cd2d00, type: 3}
   m_Name: C0ADFC06-8D69-4A3D-9288-4EA89951F89D
   m_EditorClassIdentifier: 
-  objectName: Play_HH___Snare
-  id: 2625374342
+  objectName: HH_and_SN
+  id: 1850130181
   guid: C0ADFC06-8D69-4A3D-9288-4EA89951F89D

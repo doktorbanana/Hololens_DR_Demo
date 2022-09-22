@@ -11,29 +11,61 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1091472007">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2419816017">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4250495753">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3948260894">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3916668059" Name="Bass_Synth" ObjectPath="\Events\Default Work Unit\Bass_Synth" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="151.000000" DurationMax="151.000000">
+					<IncludedMemoryFiles>
+						<File Id="869967107" Language="SFX">
+							<ShortName>Bass.wav</ShortName>
+							<Path>SFX\Bass_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1870080931" Name="BD" ObjectPath="\Events\Default Work Unit\BD" MaxAttenuation="83.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="920836520" Language="SFX">
+							<ShortName>Kick Audio 0001 [2022-09-22 090746].wav</ShortName>
+							<Path>SFX\Kick Audio 0001 [2022-09-22 090746]_30A856A1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3514562565" Name="Chords_L" ObjectPath="\Events\Default Work Unit\Chords_L" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="195081398" Language="SFX">
+							<ShortName>Stems Chords L.wav</ShortName>
+							<Path>SFX\Stems Chords L_C5579977.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3514562587" Name="Chords_R" ObjectPath="\Events\Default Work Unit\Chords_R" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="853207307" Language="SFX">
+							<ShortName>Stems Chords R.wav</ShortName>
+							<Path>SFX\Stems Chords R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1850130181" Name="HH_and_SN" ObjectPath="\Events\Default Work Unit\HH_and_SN" MaxAttenuation="13.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="388511872" Language="SFX">
+							<ShortName>HH + Snare Audio 0001 [2022-09-22 090751].wav</ShortName>
+							<Path>SFX\HH + Snare Audio 0001 [2022-09-22 090751]_30A856A1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="989013682" Name="Play_Arcade" ObjectPath="\Events\Default Work Unit\Play_Arcade" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="198750520" Language="SFX">
 							<ShortName>411444__vanceparley__arcade-sound.wav</ShortName>
 							<Path>SFX\411444__vanceparley__arcade-sound_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1560528335" Name="Play_Bass" ObjectPath="\Events\Default Work Unit\Play_Bass" DurationType="OneShot" DurationMin="151.000000" DurationMax="151.000000">
-					<IncludedMemoryFiles>
-						<File Id="869967107" Language="SFX">
-							<ShortName>Bass.wav</ShortName>
-							<Path>SFX\Bass_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -45,43 +77,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2625374342" Name="Play_HH___Snare" ObjectPath="\Events\Default Work Unit\Play_HH___Snare" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="388511872" Language="SFX">
-							<ShortName>HH + Snare Audio 0001 [2022-09-22 090751].wav</ShortName>
-							<Path>SFX\HH + Snare Audio 0001 [2022-09-22 090751]_30A856A1.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="711699424" Name="Play_Kick" ObjectPath="\Events\Default Work Unit\Play_Kick" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="920836520" Language="SFX">
-							<ShortName>Kick Audio 0001 [2022-09-22 090746].wav</ShortName>
-							<Path>SFX\Kick Audio 0001 [2022-09-22 090746]_30A856A1.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="4122783924" Name="Play_Speech" ObjectPath="\Events\Default Work Unit\Play_Speech" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="199558818" Language="SFX">
 							<ShortName>24096__acclivity__henry5.wav</ShortName>
 							<Path>SFX\24096__acclivity__henry5_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3938154147" Name="Play_Stems_Chords_L" ObjectPath="\Events\Default Work Unit\Play_Stems_Chords_L" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="195081398" Language="SFX">
-							<ShortName>Stems Chords L.wav</ShortName>
-							<Path>SFX\Stems Chords L_C5579977.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3938154173" Name="Play_Stems_Chords_R" ObjectPath="\Events\Default Work Unit\Play_Stems_Chords_R" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="853207307" Language="SFX">
-							<ShortName>Stems Chords R.wav</ShortName>
-							<Path>SFX\Stems Chords R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

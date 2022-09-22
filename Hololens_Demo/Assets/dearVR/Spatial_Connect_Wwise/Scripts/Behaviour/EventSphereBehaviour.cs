@@ -81,8 +81,11 @@ namespace SpatialConnect.Wwise
 
         private void OnStandardInteractionStateChanged(bool state)
         {
-            if (Pointed && state)
+            if (Pointed && state){
                 Shot?.Invoke(this, raycastResult_.distance);
+                Debug.Log("Hit");    
+
+            }
         }
 
         public void Select()

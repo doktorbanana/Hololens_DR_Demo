@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054153a3ab99aad40b14700596cd2d00, type: 3}
   m_Name: BFCAD8F5-0735-4AB8-B261-5164FC990612
   m_EditorClassIdentifier: 
-  objectName: Play_Bass
-  id: 1560528335
+  objectName: Bass_Synth
+  id: 3916668059
   guid: BFCAD8F5-0735-4AB8-B261-5164FC990612

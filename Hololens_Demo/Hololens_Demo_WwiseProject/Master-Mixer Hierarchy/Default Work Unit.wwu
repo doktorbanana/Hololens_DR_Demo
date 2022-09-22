@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>0.1</Value>
+								<Value>3.13701367378235</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -18,17 +18,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Mixer">
 									<Custom>
-										<Effect Name="Oculus_Spatializer_(Custom)" ID="{6CBCCC83-CC8F-48F1-A132-F24BB01DC889}" ShortID="1053128284" PluginName="Oculus Spatializer" CompanyID="266" PluginID="146" PluginType="6"/>
+										<Effect Name="Oculus Spatializer (Custom)" ID="{113F8726-3048-4AD0-BE2A-6F8F66E61683}" ShortID="477536971" PluginName="Oculus Spatializer" CompanyID="266" PluginID="146" PluginType="6"/>
 									</Custom>
 								</Reference>
 							</ReferenceList>
@@ -60,11 +53,43 @@
 										</Property>
 									</PropertyList>
 								</Bus>
-								<Bus Name="Chords L" ID="{5D8DE75F-1665-49C7-AAFD-23DCAA72D1F8}"/>
-								<Bus Name="Chords R" ID="{A08D648B-982D-4C0F-AAE6-0725F51D98DD}"/>
-								<Bus Name="Kick Drum" ID="{1ABEB084-3DA1-4EFB-B3E5-AEDA3E13A3DB}"/>
-								<Bus Name="Hats and Snare" ID="{3F6FF701-4767-4079-889A-47FC12EF4479}"/>
-								<Bus Name="Bass" ID="{E45C9B94-F4F2-4D3D-9362-FFFB0C9B5B9A}"/>
+								<Bus Name="Chords L" ID="{5D8DE75F-1665-49C7-AAFD-23DCAA72D1F8}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1.3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList/>
+								</Bus>
+								<Bus Name="Chords R" ID="{A08D648B-982D-4C0F-AAE6-0725F51D98DD}">
+									<ReferenceList/>
+								</Bus>
+								<Bus Name="BD" ID="{1ABEB084-3DA1-4EFB-B3E5-AEDA3E13A3DB}">
+									<ReferenceList/>
+								</Bus>
+								<Bus Name="HH &amp; SN" ID="{3F6FF701-4767-4079-889A-47FC12EF4479}">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{71D47732-7459-4A27-804E-3F330A5DC44D}" ShortID="173995334" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Bass_Synth" ID="{E45C9B94-F4F2-4D3D-9362-FFFB0C9B5B9A}">
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{9D033E03-3711-4FF5-8C1A-948C507BC67E}" ShortID="379869265" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

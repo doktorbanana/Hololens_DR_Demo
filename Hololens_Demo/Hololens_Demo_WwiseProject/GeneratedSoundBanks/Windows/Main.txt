@@ -1,25 +1,30 @@
 Event	ID	Name			Wwise Object Path	Notes
-	711699424	Play_Kick			\Default Work Unit\Play_Kick	
 	989013682	Play_Arcade			\Default Work Unit\Play_Arcade	
 	1012391550	Play_coffee			\Default Work Unit\Play_coffee	
-	1560528335	Play_Bass			\Default Work Unit\Play_Bass	
-	2625374342	Play_HH___Snare			\Default Work Unit\Play_HH___Snare	
-	3938154147	Play_Stems_Chords_L			\Default Work Unit\Play_Stems_Chords_L	
-	3938154173	Play_Stems_Chords_R			\Default Work Unit\Play_Stems_Chords_R	
+	1850130181	HH_and_SN			\Default Work Unit\HH_and_SN	
+	1870080931	BD			\Default Work Unit\BD	
+	3514562565	Chords_L			\Default Work Unit\Chords_L	
+	3514562587	Chords_R			\Default Work Unit\Chords_R	
+	3916668059	Bass_Synth			\Default Work Unit\Bass_Synth	
 	4122783924	Play_Speech			\Default Work Unit\Play_Speech	
 
 Effect plug-ins	ID	Name	Type				Notes
 	127001504	Oculus Spatializer (Attached)	AttachableMixerInput			
 	706669614	Oculus Spatializer (Attached)	AttachableMixerInput			
 	913396373	Oculus Spatializer (Attached)	AttachableMixerInput			
+	1241500558	Bass_Meter	Wwise Meter			
+	1267000097	BD_Meter	Wwise Meter			
+	1942027028	ChordsR_Meter	Wwise Meter			
+	3210036003	HH_Meter	Wwise Meter			
+	3870412014	ChordsL_Meter	Wwise Meter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	195081398	Stems Chords L	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Stems Chords L_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stems Chords L		5644864
+	195081398	Chords L	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Stems Chords L_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chords L		5644864
 	198750520	411444__vanceparley__arcade-sound	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\411444__vanceparley__arcade-sound_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\411444__vanceparley__arcade-sound		15108212
 	199558818	24096__acclivity__henry5	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\24096__acclivity__henry5_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\24096__acclivity__henry5		37050876
-	388511872	HH + Snare	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\HH + Snare Audio 0001 [2022-09-22 090751]_30A856A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\HH + Snare		7159936
+	388511872	HH & SN	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\HH + Snare Audio 0001 [2022-09-22 090751]_30A856A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\HH & SN		7159936
 	444700771	458118__joncon-library__coffeemaschine-making-coffee-04	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\458118__joncon-library__coffeemaschine-making-coffee-04_3D2C19D1.wem		\Actor-Mixer Hierarchy\Default Work Unit\458118__joncon-library__coffeemaschine-making-coffee-04		12241468
-	853207307	Stems Chords R	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Stems Chords R_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stems Chords R		5644864
-	869967107	Bass	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Bass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass		26636464
-	920836520	Kick	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Kick Audio 0001 [2022-09-22 090746]_30A856A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kick		7159936
+	853207307	Chords R	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Stems Chords R_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chords R		5644864
+	869967107	Bass Synth	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Bass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass Synth		26636464
+	920836520	BD	D:\Unity Projects\Hololens_Demo\Hololens_Demo\Hololens_Demo_WwiseProject\.cache\Windows\SFX\Kick Audio 0001 [2022-09-22 090746]_30A856A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\BD		7159936
 

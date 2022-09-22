@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{521E578A-B9B2-4078-A268-974C52F90BAB}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{521E578A-B9B2-4078-A268-974C52F90BAB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{521E578A-B9B2-4078-A268-974C52F90BAB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="BD_Meter" ID="{CF947AD7-0AD6-4577-A18C-7FE6CE1C6D40}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="BD_Meter_Output" ID="{70653CE9-F7EE-4CDB-B256-275F825DB2EF}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="HH_Meter" ID="{84B4A205-387B-4E6D-9DE2-5D996C33A166}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.26"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="HH_Meter_Out" ID="{572C118A-624B-449F-A76D-A0EC6FA8671F}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Bass_Meter" ID="{43306DBC-4ACA-4984-884C-1B4EC239A0FB}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.26"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Bass_Meter" ID="{C39F564B-9BF4-40B9-843B-BF206D284D01}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="ChordsL_Meter" ID="{54FF5C38-F5F5-4FCC-9323-E885DF1A2BEF}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.11"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="ChordsL_Meter_Out" ID="{D3B39637-0CD4-4728-8F14-3B0C5A1DB34F}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="ChordsR_Meter" ID="{72199B27-D69C-417F-85C2-D4AF486A7979}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.26"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="ChordsR_Meter_Out" ID="{930D3370-A147-4309-A1CE-2881C0214225}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4CDB4C6B-2BDD-4A63-AF26-6CB71E9ECEB3}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{4CDB4C6B-2BDD-4A63-AF26-6CB71E9ECEB3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4CDB4C6B-2BDD-4A63-AF26-6CB71E9ECEB3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="BD_Meter_Output" ID="{70653CE9-F7EE-4CDB-B256-275F825DB2EF}"/>
+				<GameParameter Name="Bass_Meter" ID="{C39F564B-9BF4-40B9-843B-BF206D284D01}"/>
+				<GameParameter Name="HH_Meter_Out" ID="{572C118A-624B-449F-A76D-A0EC6FA8671F}"/>
+				<GameParameter Name="ChordsL_Meter_Out" ID="{D3B39637-0CD4-4728-8F14-3B0C5A1DB34F}"/>
+				<GameParameter Name="ChordsR_Meter_Out" ID="{930D3370-A147-4309-A1CE-2881C0214225}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

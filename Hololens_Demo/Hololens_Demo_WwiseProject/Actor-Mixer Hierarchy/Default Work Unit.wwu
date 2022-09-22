@@ -112,7 +112,7 @@
 						<ActiveSource Name="24096__acclivity__henry5" ID="{7B71AACC-ACD5-4717-9EAB-4A35E3F2BEB9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="HH + Snare" ID="{C60FF8E4-A1C3-43E8-8EDF-38C716481DFC}" ShortID="767170432">
+				<Sound Name="HH &amp; SN" ID="{C60FF8E4-A1C3-43E8-8EDF-38C716481DFC}" ShortID="767170432">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -123,11 +123,17 @@
 								<Effect Name="Oculus Spatializer (Attached)" ID="{F791D79A-DAF4-4380-8A3C-CAF8008D8D54}" ShortID="579140938" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
 							</Custom>
 						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="HH&amp;SN" ID="{18C00C55-34E2-4596-9F3D-EB25CD121D07}" WorkUnitID="{4364958F-31D5-4497-8204-FBA670F76F95}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="HH_Meter" ID="{84B4A205-387B-4E6D-9DE2-5D996C33A166}" WorkUnitID="{521E578A-B9B2-4078-A268-974C52F90BAB}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Hats and Snare" ID="{3F6FF701-4767-4079-889A-47FC12EF4479}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -147,10 +153,15 @@
 						<ActiveSource Name="HH + Snare Audio 0001 [2022-09-22 090751]" ID="{4F949A2F-C78B-4899-A190-14504CA8F755}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Kick" ID="{29296E8E-48CE-4AF3-98C6-78CC643980B9}" ShortID="519162858">
+				<Sound Name="BD" ID="{29296E8E-48CE-4AF3-98C6-78CC643980B9}" ShortID="519162858">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AttachableMixerInput">
@@ -158,11 +169,17 @@
 								<Effect Name="Oculus Spatializer (Attached)" ID="{3116512B-3473-48BF-A90D-88D9B021185F}" ShortID="915877007" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
 							</Custom>
 						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="BD" ID="{8177DF0A-C785-4C52-806E-25556FBE4FE7}" WorkUnitID="{4364958F-31D5-4497-8204-FBA670F76F95}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="BD_Meter" ID="{CF947AD7-0AD6-4577-A18C-7FE6CE1C6D40}" WorkUnitID="{521E578A-B9B2-4078-A268-974C52F90BAB}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Kick Drum" ID="{1ABEB084-3DA1-4EFB-B3E5-AEDA3E13A3DB}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -182,7 +199,7 @@
 						<ActiveSource Name="Kick Audio 0001 [2022-09-22 090746]" ID="{4215ED37-4E22-4DC1-A821-2AD8B278C4DF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Stems Chords L" ID="{A15F0A02-7AFE-4B18-B42E-B1D04908A879}" ShortID="234256990">
+				<Sound Name="Chords L" ID="{A15F0A02-7AFE-4B18-B42E-B1D04908A879}" ShortID="234256990">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -193,11 +210,17 @@
 								<Effect Name="Oculus Spatializer (Attached)" ID="{EDF3C547-55C3-4D02-A864-ECBC8D2775AE}" ShortID="756650909" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
 							</Custom>
 						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Chords" ID="{7BE2A68C-328F-4D0F-995F-6DFCDC268BCB}" WorkUnitID="{4364958F-31D5-4497-8204-FBA670F76F95}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="ChordsL_Meter" ID="{54FF5C38-F5F5-4FCC-9323-E885DF1A2BEF}" WorkUnitID="{521E578A-B9B2-4078-A268-974C52F90BAB}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Chords L" ID="{5D8DE75F-1665-49C7-AAFD-23DCAA72D1F8}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -216,7 +239,7 @@
 						<ActiveSource Name="Stems Chords L" ID="{B99404A5-A20C-4D4B-B624-6E4D1229A88C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Stems Chords R" ID="{3D383CD2-0AFF-48C9-9BED-E360D81C9E2D}" ShortID="294541424">
+				<Sound Name="Chords R" ID="{3D383CD2-0AFF-48C9-9BED-E360D81C9E2D}" ShortID="294541424">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -227,11 +250,17 @@
 								<Effect Name="Oculus Spatializer (Attached)" ID="{681F6DEE-8606-4106-AEDE-2FDA078088E1}" ShortID="92955152" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
 							</Custom>
 						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Chords" ID="{7BE2A68C-328F-4D0F-995F-6DFCDC268BCB}" WorkUnitID="{4364958F-31D5-4497-8204-FBA670F76F95}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="ChordsR_Meter" ID="{72199B27-D69C-417F-85C2-D4AF486A7979}" WorkUnitID="{521E578A-B9B2-4078-A268-974C52F90BAB}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Chords R" ID="{A08D648B-982D-4C0F-AAE6-0725F51D98DD}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -247,7 +276,7 @@
 						<ActiveSource Name="Stems Chords R" ID="{E8775C7E-3ED1-4E4D-8D81-E53B6A76A8B1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Bass" ID="{88CFAD72-4745-4CEA-9AA0-8D807C380E04}" ShortID="391926419">
+				<Sound Name="Bass Synth" ID="{88CFAD72-4745-4CEA-9AA0-8D807C380E04}" ShortID="391926419">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
@@ -257,11 +286,17 @@
 								<Effect Name="Oculus Spatializer (Attached)" ID="{8075D732-7B80-4973-968D-E41120A983B8}" ShortID="289421914" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
 							</Custom>
 						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Bass_Synth" ID="{B5423BA1-F197-446C-A969-01B12A52A513}" WorkUnitID="{4364958F-31D5-4497-8204-FBA670F76F95}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AFDC3178-E833-42C3-9D88-79CC112FC336}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="Bass_Meter" ID="{43306DBC-4ACA-4984-884C-1B4EC239A0FB}" WorkUnitID="{521E578A-B9B2-4078-A268-974C52F90BAB}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Bass" ID="{E45C9B94-F4F2-4D3D-9362-FFFB0C9B5B9A}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
+							<ObjectRef Name="3D Audio" ID="{096CD192-CA7C-450A-9B51-305F3D0BD962}" WorkUnitID="{0CE84C1B-D2F1-464A-8390-87C64ECFA106}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

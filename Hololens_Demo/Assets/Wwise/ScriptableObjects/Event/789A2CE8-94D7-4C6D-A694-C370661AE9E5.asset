@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054153a3ab99aad40b14700596cd2d00, type: 3}
   m_Name: 789A2CE8-94D7-4C6D-A694-C370661AE9E5
   m_EditorClassIdentifier: 
-  objectName: Play_Stems_Chords_L
-  id: 3938154147
+  objectName: Chords_L
+  id: 3514562565
   guid: 789A2CE8-94D7-4C6D-A694-C370661AE9E5

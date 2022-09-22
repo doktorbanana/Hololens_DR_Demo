@@ -15,6 +15,8 @@ public class ToggleSpatConBehaviour : MonoBehaviour
 
     private bool overlayActive_;
     private bool overlayVisible_;
+
+    private bool keepSearching = true;
     
     private void Awake(){
         centerEyeAnchor = GameObject.Find("UIRaycastCamera").transform;
@@ -32,6 +34,10 @@ public class ToggleSpatConBehaviour : MonoBehaviour
         EvaluateRemoteConnectKey();
         EvaluateToggleVisibiltyKey();
         
+        if(keepSearching){
+            SearchAnchors();
+        }
+
         void EvaluateRemoteConnectKey()
         {
             if (!overlayActive_ || !UnityEngine.Input.GetKeyDown(remoteConnectKey)) 
@@ -85,40 +91,23 @@ public class ToggleSpatConBehaviour : MonoBehaviour
     }
 
     private void Enable()
+    {
+
+        
+        spatialConnectHandler.EnableOverlay(centerEyeAnchor, leftControllerAnchor, rightControllerAnchor);
+        overlayActive_ = true;
+        overlayVisible_ = false;
+    }
+
+    private void SearchAnchors(){
+        if (GameObject.Find("Right_ShellHandRayPointer(Clone)"))
         {
-
-            if (GameObject.Find("Left_RiggedHandLeft(Clone)"))
-            {
-                leftControllerAnchor = GameObject.Find("Left_RiggedHandLeft(Clone)").transform;
-            }
-            else
-            {
-                Debug.LogWarning("Couldn't find Hand using something else as anchor");
-                Vector3 pos = centerEyeAnchor.position;
-                pos = pos + new Vector3(-1f, -1.5f, 0f);
-                GameObject defaultLeftAnchor = new GameObject();
-                defaultLeftAnchor.transform.position = pos;
-                leftControllerAnchor = defaultLeftAnchor.transform;
-            }
-
-            if (GameObject.Find("Right_RiggedHandRight(Clone)"))
-            {
-                leftControllerAnchor = GameObject.Find("Right_RiggedHandRight(Clone)").transform;
-            }
-            else
-            {
-                Debug.LogWarning("Couldn't find Hand using something else as anchor");
-                Vector3 pos = centerEyeAnchor.position;
-                pos = pos + new Vector3(1f, -1.5f, 0f);
-                GameObject defaultLeftAnchor = new GameObject();
-                defaultLeftAnchor.transform.position = pos;
-                leftControllerAnchor = defaultLeftAnchor.transform;
-            }
-
-            spatialConnectHandler.EnableOverlay(centerEyeAnchor, leftControllerAnchor, rightControllerAnchor);
-            overlayActive_ = true;
-            overlayVisible_ = false;
+            GameObject index_finger = GameObject.Find("Right_ShellHandRayPointer(Clone)");
+            leftControllerAnchor = index_finger.transform;
+            rightControllerAnchor = index_finger.transform;
+            keepSearching = false;
         }
+    }
 }
 
 

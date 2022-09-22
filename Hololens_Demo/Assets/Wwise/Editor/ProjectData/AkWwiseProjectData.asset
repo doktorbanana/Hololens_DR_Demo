@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1b4ce80cf1d24a46839087c64ecfa106
     GuidInternal: 
-    m_lastTime: -8585377578494085076
+    m_lastTime: -8585377399992801436
     List:
     - name: 3D Audio
       guid: 92d16c097cca0a459b51305f3d0bd962
@@ -56,9 +56,9 @@ MonoBehaviour:
       - ElementName: Arcade Machine
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine
-    - name: Bass
+    - name: Bass_Synth
       guid: 949b5ce4f2f43d4d9362fffb0c9b5b9a
-      id: 1291433344
+      id: 3916668059
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -66,9 +66,22 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: 3D Audio
         ObjectType: 2
-      - ElementName: Bass
+      - ElementName: Bass_Synth
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\3D Audio\Bass
+      Path: Default Work Unit\Master Audio Bus\3D Audio\Bass_Synth
+    - name: BD
+      guid: 84b0be1aa13dfb4eb3e5aeda3e13a3db
+      id: 1870080931
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: 3D Audio
+        ObjectType: 2
+      - ElementName: BD
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\3D Audio\BD
     - name: Chords L
       guid: 5fe78d5d6516c749aafd23dcaa72d1f8
       id: 712803560
@@ -108,9 +121,9 @@ MonoBehaviour:
       - ElementName: Coffee Maker
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\3D Audio\Coffee Maker
-    - name: Hats and Snare
+    - name: HH & SN
       guid: 01f76f3f67477940889a47fc12ef4479
-      id: 3939317979
+      id: 2610838998
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -118,22 +131,9 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: 3D Audio
         ObjectType: 2
-      - ElementName: Hats and Snare
+      - ElementName: HH & SN
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\3D Audio\Hats and Snare
-    - name: Kick Drum
-      guid: 84b0be1aa13dfb4eb3e5aeda3e13a3db
-      id: 1553909153
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-      - ElementName: 3D Audio
-        ObjectType: 2
-      - ElementName: Kick Drum
-        ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\3D Audio\Kick Drum
+      Path: Default Work Unit\Master Audio Bus\3D Audio\HH & SN
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -164,7 +164,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c790fa4a57d9e2449a044f960c730a17
     GuidInternal: 
-    m_lastTime: -8585377578493935478
+    m_lastTime: -8585377553758019345
     List:
     - name: Main
       guid: 3cbf9dc4e0b5c94e88e3e4feed4f7bea
@@ -183,8 +183,68 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 188d8cc370839f4098a5d1c49c08daf4
     GuidInternal: 
-    m_lastTime: -8585377578494014990
+    m_lastTime: -8585377488059834085
     List:
+    - name: Bass_Synth
+      guid: f5d8cabf3507b84ab2615164fc990612
+      id: 3916668059
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bass_Synth
+        ObjectType: 3
+      Path: Default Work Unit\Bass_Synth
+      maxAttenuation: 100
+      maxDuration: 151
+      minDuration: 151
+    - name: BD
+      guid: 2544107af86ff746a21024105eeae835
+      id: 1870080931
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BD
+        ObjectType: 3
+      Path: Default Work Unit\BD
+      maxAttenuation: 83
+      maxDuration: -1
+      minDuration: -1
+    - name: Chords_L
+      guid: e82c9a78d7946d4ca694c370661ae9e5
+      id: 3514562565
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chords_L
+        ObjectType: 3
+      Path: Default Work Unit\Chords_L
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Chords_R
+      guid: dab074d0acbcf14688a6815eef7a5667
+      id: 3514562587
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chords_R
+        ObjectType: 3
+      Path: Default Work Unit\Chords_R
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: HH_and_SN
+      guid: 06fcadc0698d3d4a92884ea89951f89d
+      id: 1850130181
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HH_and_SN
+        ObjectType: 3
+      Path: Default Work Unit\HH_and_SN
+      maxAttenuation: 13
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Arcade
       guid: 9853e3a20277f9428f9e94fab70ccac9
       id: 989013682
@@ -194,18 +254,6 @@ MonoBehaviour:
       - ElementName: Play_Arcade
         ObjectType: 3
       Path: Default Work Unit\Play_Arcade
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Bass
-      guid: f5d8cabf3507b84ab2615164fc990612
-      id: 1560528335
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Bass
-        ObjectType: 3
-      Path: Default Work Unit\Play_Bass
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -221,30 +269,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_HH___Snare
-      guid: 06fcadc0698d3d4a92884ea89951f89d
-      id: 2625374342
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_HH___Snare
-        ObjectType: 3
-      Path: Default Work Unit\Play_HH___Snare
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Kick
-      guid: 2544107af86ff746a21024105eeae835
-      id: 711699424
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Kick
-        ObjectType: 3
-      Path: Default Work Unit\Play_Kick
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Play_Speech
       guid: 749a1266631c3243a38b449999859609
       id: 4122783924
@@ -257,30 +281,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Stems_Chords_L
-      guid: e82c9a78d7946d4ca694c370661ae9e5
-      id: 3938154147
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Stems_Chords_L
-        ObjectType: 3
-      Path: Default Work Unit\Play_Stems_Chords_L
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Stems_Chords_R
-      guid: dab074d0acbcf14688a6815eef7a5667
-      id: 3938154173
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Play_Stems_Chords_R
-        ObjectType: 3
-      Path: Default Work Unit\Play_Stems_Chords_R
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -289,8 +289,53 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6b4cdb4cdd2b634aaf266cb71e9eceb3
     GuidInternal: 
-    m_lastTime: -8585404231712358001
-    List: []
+    m_lastTime: -8585377467114882222
+    List:
+    - name: Bass_Meter
+      guid: 4b569fc3f49bb940843bbf206d284d01
+      id: 1241500558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bass_Meter
+        ObjectType: 13
+      Path: Default Work Unit\Bass_Meter
+    - name: BD_Meter_Output
+      guid: e93c6570eef7db4cb256275f825db2ef
+      id: 2575811955
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BD_Meter_Output
+        ObjectType: 13
+      Path: Default Work Unit\BD_Meter_Output
+    - name: ChordsL_Meter_Out
+      guid: 3796b3d3d40c28478f143b0c5a1db34f
+      id: 2498085915
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ChordsL_Meter_Out
+        ObjectType: 13
+      Path: Default Work Unit\ChordsL_Meter_Out
+    - name: ChordsR_Meter_Out
+      guid: 70330d9347a10943a1ce2881c0214225
+      id: 2059184737
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ChordsR_Meter_Out
+        ObjectType: 13
+      Path: Default Work Unit\ChordsR_Meter_Out
+    - name: HH_Meter_Out
+      guid: 8a112c574b629f44a76da0ec6fa8671f
+      id: 1177198626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HH_Meter_Out
+        ObjectType: 13
+      Path: Default Work Unit\HH_Meter_Out
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

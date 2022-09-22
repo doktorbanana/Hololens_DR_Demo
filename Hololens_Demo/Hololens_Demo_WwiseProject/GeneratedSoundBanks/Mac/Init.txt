@@ -1,17 +1,17 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	712803560	Chords L			\Default Work Unit\Master Audio Bus\3D Audio\Chords L	
 	712803574	Chords R			\Default Work Unit\Master Audio Bus\3D Audio\Chords R	
-	1291433344	Bass			\Default Work Unit\Master Audio Bus\3D Audio\Bass	
-	1553909153	Kick Drum			\Default Work Unit\Master Audio Bus\3D Audio\Kick Drum	
+	1870080931	BD			\Default Work Unit\Master Audio Bus\3D Audio\BD	
 	2316283105	Coffee Maker			\Default Work Unit\Master Audio Bus\3D Audio\Coffee Maker	
+	2610838998	HH & SN			\Default Work Unit\Master Audio Bus\3D Audio\HH & SN	
 	2753246078	Arcade Machine			\Default Work Unit\Master Audio Bus\3D Audio\Arcade Machine	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3939317979	Hats and Snare			\Default Work Unit\Master Audio Bus\3D Audio\Hats and Snare	
+	3916668059	Bass_Synth			\Default Work Unit\Master Audio Bus\3D Audio\Bass_Synth	
 	4122844158	3D Audio			\Default Work Unit\Master Audio Bus\3D Audio	
 	4245458931	Speech			\Default Work Unit\Master Audio Bus\3D Audio\Speech	
 
 Effect plug-ins	ID	Name	Type				Notes
-	1053128284	Oculus_Spatializer_(Custom)	Oculus Spatializer			
+	477536971	Oculus Spatializer (Custom)	Oculus Spatializer			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
